@@ -22,27 +22,27 @@ class _HomePageState extends State<HomePage> {
   Marker etiquetauno=Marker(
   markerId: MarkerId('Arce'),
   position:LatLng( 13.699977156731206, -89.19813424564155 ),
-  infoWindow: InfoWindow(title: 'MovilSV'),
+  infoWindow: InfoWindow(title: 'MovilSV Calle Arce'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueBlue
+  BitmapDescriptor.hueRed
 ),
 );
 
   Marker etiquetados=Marker(
   markerId: MarkerId('Salvador del Mundo'),
   position:LatLng( 13.70155590798445, -89.22445536098556 ),
-  infoWindow: InfoWindow(title: 'MovilSV'),
+  infoWindow: InfoWindow(title: 'MovilSV Salvador del Mundo'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueBlue),
+  BitmapDescriptor.hueRed),
 
   
 );
 Marker etiquetatres=Marker(
   markerId: MarkerId('Soyabronx'),
   position:LatLng( 13.709780456577743, -89.13737268751773 ),
-  infoWindow: InfoWindow(title: 'MovilSV'),
+  infoWindow: InfoWindow(title: 'MovilSV Soyapango'),
   icon: BitmapDescriptor.defaultMarkerWithHue(
-  BitmapDescriptor.hueBlue
+  BitmapDescriptor.hueRed
 ),
 );
     setState(() {
